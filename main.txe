@@ -1,0 +1,38 @@
+\documentclass{beamer}
+
+% Theme & Colors
+\usetheme{default}
+\usecolortheme{default}
+
+\definecolor{darkbg}{RGB}{15,15,15}
+\definecolor{accent}{RGB}{0,150,255}
+
+\setbeamercolor{background canvas}{bg=darkbg}
+\setbeamercolor{normal text}{fg=white}
+\setbeamercolor{title}{fg=accent}
+
+\usepackage{graphicx}
+
+\begin{document}
+
+% ------------------- Single Slide ----------------------
+\begin{frame}
+
+\begin{center}
+
+    % University Logo
+    \includegraphics[width=6cm]{jain_logo.jpeg.jpeg} \\[1cm]
+
+    {\Huge \textbf{Presentation}}\\[0.6cm]
+
+    {\Large \textbf{ARMAAN GIRI}}\\[0.2cm]
+    {\large USN: JUUG25BTECH16826}\\[1cm]
+
+    \rule{0.5\linewidth}{0.5pt}\\[0.3cm]
+    {\small Jain (Deemed-to-be University)}
+
+\end{center}
+
+\end{frame}
+
+\end{document}
